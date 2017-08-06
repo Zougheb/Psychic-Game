@@ -1,5 +1,5 @@
 //Letter choices available
-var name = alert("what are you doing");
+
 var computerChoices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 
 //Setting all to zero
@@ -15,7 +15,7 @@ var letterToGuess = null;
 //Lets the computer select a random letter from the available choices
 var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 
-//Allows the user 9 guesses
+//Allows the user 9 guesses  
 // guesses = guesses || 9
 var updateGuessesLeft = function() {
   // Here we are grabbing the HTML element and setting it equal to the guessesLeft. (i.e. guessesLeft will get displayed in HTML)
